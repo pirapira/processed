@@ -1,0 +1,7 @@
+build❯ clang++ -S -emit-llvm -O1 -std=c++11 -stdlib=libc++ main.cpp                                                                                                          cpp-ethereum-crash/git/crash !
+build❯ mv main.ll processed/main.o1.ll                                                                                                                                       cpp-ethereum-crash/git/crash !
+build❯ clang++ -S -emit-llvm -O2 -std=c++11 -stdlib=libc++ main.cpp                                                                                                          cpp-ethereum-crash/git/crash !
+^[[A^[[A%
+build❯ mv main.ll processed/main.o2.ll                                                                                                                                       cpp-ethereum-crash/git/crash !
+build❯ clang++ -S -emit-llvm -O3 -std=c++11 -stdlib=libc++ main.cpp                                                                                                          cpp-ethereum-crash/git/crash !
+build❯ mv main.ll processed/main.o3.ll
